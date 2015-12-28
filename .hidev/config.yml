@@ -1,0 +1,18 @@
+github:
+    name:           hiqdev/minii-validators
+
+package:
+    type:           library
+    name:           validators
+    namespace:      yii\validators
+    src:            src
+    title:          minii validators
+    keywords:       minii, validators
+    description:    |
+        [minii](https://github.com/hiqdev/minii-core) is mini version of [Yii2](http://yiiframework.com/), supposed to be fully compatible.
+
+        This package provides yii\validators.
+
+require:
+    hiqdev/hidev-php:   "*"
+    minii/hidev-vendor: "*"

@@ -1,0 +1,33 @@
+{
+    "name": "minii/validators",
+    "type": "library",
+    "description": "minii validators",
+    "keywords": [
+        "minii",
+        "validators"
+    ],
+    "homepage": "https://github.com/hiqdev/minii-validators",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/minii-validators",
+        "issues": "https://github.com/hiqdev/minii-validators/issues",
+        "wiki": "https://github.com/hiqdev/minii-validators/wiki",
+        "forum": "http://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        }
+    ],
+    "require": {
+        "minii/core": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\validators\\": "src"
+        }
+    }
+}
